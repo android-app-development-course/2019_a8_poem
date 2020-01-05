@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">育儿宝典</string>
+    <string name="title_cloth">衣</string>
+    <string name="title_food">食</string>
+    <string name="title_living">住</string>
+    <string name="title_walk">行</string>
+
+    <string name="cloth_health">健康</string>
+    <string name="cloth_parentchild">亲子</string>
+    <string name="cloth_season">季节</string>
+    <string name="cloth_comfortable">舒适</string>
+    <string name="cloth_outfit">穿搭</string>
+
+    <string name="cloth_looptitle">我是标题</string>
+    <string name="end_message">没有更多了,去其它话题逛逛吧！</string>
+    <string name="little_title">最近跟新</string>
+
+    <string name="food_nutrition">营养搭配</string>
+    <string name="food_healthy_recipes">健康食谱</string>
+    <string name="food_special_recipes">特色美食</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parentingbook">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/neko"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        >
+        <activity android:name=".ui.cloth.ClothComfortableActivity" />
+        <activity android:name=".ui.cloth.ClothSeasonActivity" />
+        <activity android:name=".ui.cloth.ClothParentChildActivity" />
+        <activity android:name=".ui.cloth.ClothHealthActivity" />
+        <activity android:name=".ui.food.Food_Nutrition_Activity"/>
+        <activity android:name=".ui.food.Food_Specialrecipes_Activity"/>
+        <activity android:name=".ui.food.Food_Healthyrecipes_Activity"/>
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>
